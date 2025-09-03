@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
   entry_points:
     - diffpy.morph = diffpy.morph.morphapp:main
@@ -30,7 +30,7 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - scipy
-    - diffpy.utils
+    - diffpy.utils >=3.6.1
     - matplotlib-base
     - bg-mpl-stylesheets
 
