@@ -1,5 +1,5 @@
 {% set name = "diffpy.morph" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/diffpy_morph/diffpy_morph-{{ version }}.tar.gz
-  sha256: 91dba06071b8195e936e5fb7e17ae44b1dcd69f3229fbdb805cda2f5575c5f38
+  sha256: 286069282d4e4b681fdd19cbf8345efac2918cea4d642806a89511f43dd2fdec
 
 build:
   noarch: python
