@@ -30,7 +30,7 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - scipy
-    - diffpy.utils >=3.6.1
+    - diffpy.utils >=3.7.1
     - matplotlib-base
     - bg-mpl-stylesheets
 
